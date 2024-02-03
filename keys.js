@@ -1,4 +1,4 @@
 module.exports ={
-    mongoUrl: 'mongodb+srv://rishav:rishav123@kann.0iavpsx.mongodb.net/',
-    jwtKey: "asdfghjkl"
+    mongoUrl: process.env.MONGO_URL,
+    jwtKey: process.env.JWT_KEY
 }

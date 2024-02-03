@@ -3,7 +3,6 @@ const mongoose = require('mongoose');
 const jwt = require('jsonwebtoken');
 const router = express.Router();
 const {jwtKey} = require('../keys');
-const { generateOTP, verifyOTP } = require('../utils/otpUtils');
 
 
 const User = mongoose.model('User');
